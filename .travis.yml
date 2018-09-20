@@ -7,8 +7,6 @@ branches:
   - master
 
 before_script:
-#- npm install -g @vue/cli
-#- npm install -g @vue/cli-service-global
 - npm install
 
 script:
@@ -17,6 +15,6 @@ script:
 deploy:
   provider: surge
   project: ./dist
-  domain: test-vue.surge.sh
+  domain: vue-abdo.surge.sh
   SURGE_TOKEN: fe60cd1f3db96547af4d6e045714b048
   skip_cleanup: true
