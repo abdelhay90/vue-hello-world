@@ -1,14 +1,14 @@
 language: node_js
 node_js:
-- 10-slim
+- 10
 
 branches:
   only:
   - master
 
 before_script:
-- npm install -g @vue/cli
-- npm install -g @vue/cli-service-global
+#- npm install -g @vue/cli
+#- npm install -g @vue/cli-service-global
 - npm install
 
 script:
