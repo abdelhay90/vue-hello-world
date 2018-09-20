@@ -16,5 +16,5 @@ deploy:
   provider: surge
   project: ./dist
   domain: vue-abdo.surge.sh
-  SURGE_TOKEN: fe60cd1f3db96547af4d6e045714b048
+  token: fe60cd1f3db96547af4d6e045714b048
   skip_cleanup: true
