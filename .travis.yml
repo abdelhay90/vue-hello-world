@@ -18,5 +18,5 @@ deploy:
   provider: surge
   project: ./dist
   domain: test-vue.surge.sh
-  token: fe60cd1f3db96547af4d6e045714b048
+  SURGE_TOKEN: fe60cd1f3db96547af4d6e045714b048
   skip_cleanup: true
