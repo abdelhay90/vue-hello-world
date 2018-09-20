@@ -9,6 +9,7 @@ branches:
 before_script:
 - npm install
 - export SURGE_TOKEN=fe60cd1f3db96547af4d6e045714b048
+- export SURGE_LOGIN=a_abd_elhay@live.com
 
 script:
 - npm run lint
